@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/recyclerview_item">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/produit_titre"
+        android:text="titre"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/produit_desc"
+        android:text="Description"
+        android:layout_below="@+id/produit_titre"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/produit_prix"
+        android:text="prix"
+        android:layout_toRightOf="@id/produit_titre"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:textSize="25sp"/>
+
+
+
+</RelativeLayout>
